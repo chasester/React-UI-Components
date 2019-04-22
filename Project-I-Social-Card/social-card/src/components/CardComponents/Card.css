@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+
+.card-container
+{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.card-container img
+{
+    padding: 0% 2%;
+    background-color: darkslategrey;
+}

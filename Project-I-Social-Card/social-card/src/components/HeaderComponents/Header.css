@@ -1,1 +1,12 @@
 /* All styles for your header Components live here */
+
+.header-container
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.header-container img
+{
+    margin-right: 20px;
+}
