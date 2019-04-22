@@ -4,7 +4,7 @@ class HeaderTitle extends React.Component
 {    
     render()
     { 
-        return (<div class="header-title"><strong>{this.props.username}</strong> <span class="grayout">@{this.props.handle} • {this.props.date}</span></div>);
+        return (<div class="title"><strong>{this.props.username}</strong> <span class="grayout">@{this.props.handle} • {this.props.date}</span></div>);
     }
 }
 

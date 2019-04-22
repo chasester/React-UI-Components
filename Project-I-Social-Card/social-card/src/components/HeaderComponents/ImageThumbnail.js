@@ -3,7 +3,7 @@ import './Header.css';
 
 class ImageThumbnail extends React.Component 
 {
-    render(){return(<img src={`${this.props.imgscr}`} alt="" width="10%" height="10%"></img>);}
+    render(){return(<img class="img-title" src={`${this.props.imgscr}`} alt="" width="9%" height="9%"></img>);}
 }
 
 export default ImageThumbnail;
