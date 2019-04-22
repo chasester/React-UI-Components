@@ -17,6 +17,7 @@ const App = () => {
       <CardContainer />
       <FooterContainer comments="10" likes="2k" reposts="5" messages="20"  />
       </div>
+      <ImageThumbnail imgscr={""} /> {/*blank container for spacing*/}
     </div>
   );
 };
