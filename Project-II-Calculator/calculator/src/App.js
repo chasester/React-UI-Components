@@ -51,7 +51,6 @@ class App extends React.Component {
   }
   clear()
   {
-    console.log(`stored: ${this.stored}`);
     return {answer : null, number : null};
   }
   calculate(state, input)
@@ -80,7 +79,6 @@ class App extends React.Component {
     }
     this.stored = input !== "=" ? answer : null;
     this.operator = input !== "=" ? input : null;
-    console.log(`ans: ${answer}`);
     this.clear();
     return {number: null, answer : answer}
   }
