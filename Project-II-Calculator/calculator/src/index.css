@@ -24,7 +24,7 @@ body {
 {
   background-color: black;
   color: white;
-  width: 98.2%;
+  width: 98.3%;
   text-align: end;
   padding: 20px 0;
 }
@@ -51,5 +51,5 @@ body {
 
 .but-div, .but-mul, .but-sub, .but-add, .but-equal
 {
-  background-color: crimson;
+  background-color: #a01313;
 }
