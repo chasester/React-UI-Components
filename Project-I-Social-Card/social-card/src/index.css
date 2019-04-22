@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display:flex;
   justify-content: center;
+  
 }
 
 code {
@@ -23,4 +24,17 @@ code {
 .container
 {
   max-width: 600px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+}
+
+.container .img-title
+{
+  margin-right: 2%;
+}
+
+.title
+{
+  line-height: 200%;
 }
