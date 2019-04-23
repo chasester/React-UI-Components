@@ -1,0 +1,12 @@
+.footer-container
+{
+    width: 80%;
+    display:flex;
+    justify-content: space-between;
+    font-size: 80%;  
+}
+
+.footer-container .icon:hover
+{
+    color: black;
+}
